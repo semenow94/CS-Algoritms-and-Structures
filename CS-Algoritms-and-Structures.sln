@@ -9,6 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW2-1", "HW2-1\HW2-1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW2-2", "HW2-2\HW2-2.csproj", "{8D067F5F-71B8-4F3A-A04E-1FA6A67A5430}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HW1", "HW1", "{720BA313-A0FF-401B-9EDC-E6807833404F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1-2", "HW1-2\HW1-2.csproj", "{58833EFF-5585-4782-9A2E-027D0B092A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1-3", "HW1-3\HW1-3.csproj", "{432F3FCB-B943-4C6F-93F1-8B103B69D4CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +36,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA68D023-A041-421C-8717-E09CBE810859} = {720BA313-A0FF-401B-9EDC-E6807833404F}
+		{58833EFF-5585-4782-9A2E-027D0B092A88} = {720BA313-A0FF-401B-9EDC-E6807833404F}
+		{432F3FCB-B943-4C6F-93F1-8B103B69D4CD} = {720BA313-A0FF-401B-9EDC-E6807833404F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BC8D26D0-312E-4B79-9D60-D29CF61C84A0}
