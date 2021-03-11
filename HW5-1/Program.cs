@@ -1,5 +1,20 @@
 ﻿using System;
+//Реализуйте DFS и BFS для дерева с выводом каждого шага в консоль.
 
+//Создаем дерево
+//|___15
+//   |___18
+//      |___19
+//      |___17
+//         |___16
+//   |___13
+//      |___14
+//      |___12
+//         |___11
+//Вывод BFS обхода
+//15 13 18 12 14 17 19 11 16
+//Вывод DFS обхода
+//15 13 12 11 14 18 17 16 19
 namespace HW5_1
 {
     class Program
@@ -20,6 +35,8 @@ namespace HW5_1
             binTree.PrintTree();
             Console.WriteLine("Вывод BFS обхода");
             binTree.BfsPrint();
+            Console.WriteLine("Вывод DFS обхода");
+            binTree.DfsPrint();
         }
     }
 }

@@ -182,6 +182,25 @@ namespace HW5_1
             }
             Console.WriteLine();
         }
+        public void DfsPrint()
+        {
+            if (root == null)
+            {
+                Console.WriteLine("Дерево пустое");
+                return;
+            }
+            Stack<TreeNode> nodes = new Stack<TreeNode>();
+            TreeNode treeNode;
+            nodes.Push(root);
+            while (nodes.Count > 0)
+            {
+                treeNode = nodes.Pop();
+                Console.Write(treeNode.Value + " ");
+                if (treeNode.RightChild != null) nodes.Push(treeNode.RightChild);
+                if (treeNode.LeftChild != null) nodes.Push(treeNode.LeftChild);
+            }
+            Console.WriteLine();
+        }
     }
     public class TreeNode
     {
